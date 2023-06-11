@@ -1,10 +1,14 @@
-import type { Component } from 'solid-js';
+import type { Component } from 'solid-js'
+import AppShell from './components/Shell'
+import { SearchPage } from './components/Search'
 
 const App: Component = () => {
   return (
-    <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
-  );
-};
+    <AppShell>
+      <SearchPage />
+    </AppShell>
+  )
+}
 
-export default App;
-``
+export default App
+;``
