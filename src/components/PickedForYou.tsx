@@ -33,7 +33,7 @@ export default function PickedForYou() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-8"
+                class="w-12"
               >
                 <path
                   stroke-linecap="round"
@@ -44,7 +44,7 @@ export default function PickedForYou() {
             </button>
             <button
               type="button"
-              class="appearance-none shadow-md outline-none text-red-950 w-12 h-12 bg-white rounded-full flex items-center justify-center"
+              class="appearance-none shadow-md outline-none text-red-950 w-10 h-10 bg-white rounded-full flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -51,7 +51,7 @@ export function SearchPage() {
             name="search"
             type="text"
             placeholder="What do you want to listen to?"
-            class="w-full outline-none placeholder:text-black"
+            class="w-full outline-none placeholder:text-black placeholder:tracking-wide text-xl"
           />
         </div>
       </div>
