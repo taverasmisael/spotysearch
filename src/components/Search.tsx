@@ -1,8 +1,10 @@
+import PickedForYou from './PickedForYou'
+
 export function SearchPage() {
   return (
     <div class="p-4">
       <header class="flex items-center justify-between">
-        <h1 class="text-3xl font-bold">Search</h1>
+        <h1 class="text-4xl font-semibold tracking-tight">Search</h1>
         <a href="#" class="text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -53,6 +55,7 @@ export function SearchPage() {
           />
         </div>
       </div>
+      <PickedForYou />
     </div>
   )
 }
