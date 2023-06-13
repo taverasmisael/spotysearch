@@ -16,12 +16,11 @@ export default function PickedForYou() {
         <div class="flex flex-1 flex-col justify-between">
           <div class="text-gray-300/60">
             <small class="text-xs leading-loose">Single ⋅ {day}</small>
-            <h2 class="text-xl font-semibold text-white">
+            <h2 class="text-base md:text-xl font-semibold text-white">
               Repeat after me (Interlude)
             </h2>
-            <p class="">The Weeknd, After Hours</p>
+            <p class="text-sm">The Weeknd, After Hours</p>
           </div>
-          <span aria-hidden="true" />
           <div class="flex items-center justify-between">
             <button
               type="button"
@@ -33,7 +32,7 @@ export default function PickedForYou() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-10"
+                class="w-6 md:w-10"
               >
                 <path
                   stroke-linecap="round"
@@ -44,13 +43,13 @@ export default function PickedForYou() {
             </button>
             <button
               type="button"
-              class="appearance-none shadow-md outline-none text-red-950 w-12 h-12 bg-white rounded-full flex items-center justify-center"
+              class="appearance-none shadow-md outline-none text-red-950 w-8 h-8 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="w-8 ml-1"
+                class="w-5 md:w-8 md:ml-1"
               >
                 <path
                   fill-rule="evenodd"

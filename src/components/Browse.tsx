@@ -15,10 +15,10 @@ const topics: Topic[] = [
   { title: 'Pride', image: 'assets/pride.webp' },
   { title: 'Discover', image: 'assets/discover.webp' },
   { title: 'At home', image: 'assets/at-home.webp' },
-  { title: 'Your friends listen to', image: 'assets/your-friends-listen-to.webp' },
+  { title: 'Friends vibes', image: 'assets/your-friends-listen-to.webp' },
   { title: 'Latin', image: 'assets/latin.webp' },
   { title: 'Live Events', image: 'assets/live-events.webp' },
-  { title: 'Genres and moods', image: 'assets/genres-and-moods.webp' },
+  { title: 'Genres & moods', image: 'assets/genres-and-moods.webp' },
   { title: 'Black History is Now', image: 'assets/black-history-is-now.webp' },
 ]
 
@@ -29,7 +29,7 @@ export default function BrowseTopics() {
         <h2 class="text-2xl font-semibold">Browse all</h2>
       </header>
       <div>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 gap-y-2 gap-x-4">
           <For each={topics}>{(topic) => <TopicCard title={topic.title} image={topic.image} />}</For>
         </div>
       </div>

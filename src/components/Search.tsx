@@ -29,7 +29,7 @@ export default function SearchPage() {
         </a>
       </header>
       <div class="p-4 bg-black sticky top-0 z-10">
-        <div class="flex gap-4 w-full p-4 text-black bg-white rounded-md text-lg">
+        <div class="flex gap-4 w-full p-2 md:p-4 text-black bg-white rounded-md text-lg">
           {/* TODO: A misterious thing to come   */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function SearchPage() {
             name="search"
             type="text"
             placeholder="What do you want to listen to?"
-            class="w-full outline-none placeholder:text-black placeholder:tracking-wide text-xl"
+            class="w-full outline-none placeholder:text-black placeholder:tracking-wide text-lg"
           />
         </div>
       </div>
