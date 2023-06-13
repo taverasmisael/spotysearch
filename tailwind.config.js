@@ -1,5 +1,6 @@
+import plugin from 'tailwindcss/plugin'
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx,css,md,mdx,html,json,scss}',
@@ -8,5 +9,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
-};
+  plugins: [
+    plugin(function ({ addBase }) {
+      addBase({
+        '.wrap-balance': { textWrap: 'balance' },
+      })
+    }),
+  ],
+}
