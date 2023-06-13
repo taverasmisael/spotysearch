@@ -3,7 +3,7 @@ import PickedForYou from './PickedForYou'
 
 export default function SearchPage() {
   return (
-    <div class="p-4">
+    <div class="children:px-4 py-4">
       <header class="flex items-center justify-between">
         <h1 class="text-4xl font-semibold tracking-tight">Search</h1>
         <a href="#" class="text-white">
@@ -28,8 +28,7 @@ export default function SearchPage() {
           </svg>
         </a>
       </header>
-      {/* TODO: Make this sticky   */}
-      <div class="mt-4">
+      <div class="p-4 bg-black sticky top-0 z-10">
         <div class="flex gap-4 w-full p-4 text-black bg-white rounded-md text-lg">
           {/* TODO: A misterious thing to come   */}
           <svg
