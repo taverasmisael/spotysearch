@@ -1,14 +1,14 @@
 export default function Navigation() {
   return (
-    <nav class="sticky bottom-0 w-full p-8 flex justify-between bg-gradient-to-b from-black/80 via-neutral-950 to-neutral-950 backdrop-blur-sm">
-      <a href="#" class="flex flex-col gap-2 items-center text-neutral-400 text-center">
+    <nav class="sticky bottom-0 w-full p-4 px-6 text-sm md:p-8 flex justify-between bg-gradient-to-b from-black/80 via-neutral-950 to-neutral-950 backdrop-blur-lg text-neutral-400 text-center">
+      <a href="#" class="flex flex-col gap-2 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6"
+          class="w-4 md:w-6"
         >
           <path
             stroke-linecap="round"
@@ -18,8 +18,8 @@ export default function Navigation() {
         </svg>
         <span>Home</span>
       </a>
-      <a href="#" class="flex flex-col gap-2 items-center text-white text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6">
+      <a href="#" class="flex flex-col gap-2 items-center text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 md:w-6">
           <path
             fill-rule="evenodd"
             d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
@@ -28,14 +28,14 @@ export default function Navigation() {
         </svg>
         <span>Search</span>
       </a>
-      <a href="#" class="flex flex-col gap-2 items-center text-neutral-400 text-center">
+      <a href="#" class="flex flex-col gap-2 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6"
+          class="w-4 md:w-6"
         >
           <path
             stroke-linecap="round"
@@ -44,7 +44,7 @@ export default function Navigation() {
           />
         </svg>
 
-        <span>Your Library</span>
+        <span>Library</span>
       </a>
     </nav>
   )

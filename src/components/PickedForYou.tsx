@@ -3,7 +3,7 @@ export default function PickedForYou() {
   const day = Intl.DateTimeFormat('en-US', { weekday: "short" }).format(new Date())
 
   return (
-    <div class="mt-8">
+    <div class="mt-2">
       <header class="flex mb-4 items-center justify-between">
         <h2 class="text-2xl font-semibold">Picked for you</h2>
       </header>
@@ -11,9 +11,9 @@ export default function PickedForYou() {
         <img
           src="https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
           alt="Album cover"
-          class="w-48 aspect-square rounded-md shadow"
+          class="w-32 h-32 sm:w-24 sm:h-24 md:w-48 md:h-48 aspect-square rounded-md shadow"
         />
-        <div class="flex flex-1 flex-col justify-between">
+        <div class="flex flex-1 gap-2 flex-col justify-between">
           <div class="text-gray-300/60">
             <small class="text-xs leading-loose">Single ⋅ {day}</small>
             <h2 class="text-base md:text-xl font-semibold text-white">

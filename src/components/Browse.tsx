@@ -24,7 +24,7 @@ const topics: Topic[] = [
 
 export default function BrowseTopics() {
   return (
-    <div class="mt-8">
+    <div class="mt-4 md:mt-8">
       <header class="flex mb-4 items-center justify-between">
         <h2 class="text-2xl font-semibold">Browse all</h2>
       </header>
