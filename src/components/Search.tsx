@@ -1,6 +1,7 @@
+import BrowseTopics from './Browse'
 import PickedForYou from './PickedForYou'
 
-export function SearchPage() {
+export default function SearchPage() {
   return (
     <div class="p-4">
       <header class="flex items-center justify-between">
@@ -27,6 +28,7 @@ export function SearchPage() {
           </svg>
         </a>
       </header>
+      {/* TODO: Make this sticky   */}
       <div class="mt-4">
         <div class="flex gap-4 w-full p-4 text-black bg-white rounded-md text-lg">
           {/* TODO: A misterious thing to come   */}
@@ -56,6 +58,7 @@ export function SearchPage() {
         </div>
       </div>
       <PickedForYou />
+      <BrowseTopics />
     </div>
   )
 }
