@@ -23,13 +23,10 @@ export async function getColorFromImage(src: string): Promise<string> {
         })
       }
 
-      const result = color(quantize(values))
-        .rotate(-45)
-        .saturate(0.6)
-        .lightness(50)
-        .lch()
+      const baseColor = color(quantize(values))
+      const result = baseColor.rotate(-45).darken(0.5).lch()
       const [l, c, h] = result.array()
-      resolve(`lch(${l} ${c *2} ${h})`)
+      resolve(`lch(${l} ${c * 2} ${h})`)
     }
   })
 }

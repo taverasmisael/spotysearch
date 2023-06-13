@@ -11,15 +11,15 @@ const topics: Topic[] = [
   { title: 'Made for you', image: 'assets/made-for-you.webp' },
   { title: 'Charts', image: 'assets/charts.webp' },
   { title: 'New releases', image: 'assets/new-releases.webp' },
-  { title: 'Discover', image: 'assets/discover.webp' },
   { title: 'Concerts', image: 'assets/concerts.webp' },
+  { title: 'Pride', image: 'assets/pride.webp' },
+  { title: 'Discover', image: 'assets/discover.webp' },
   { title: 'At home', image: 'assets/at-home.webp' },
-  { title: 'Genres and moods', image: 'assets/genres-and-moods.webp' },
+  { title: 'Your friends listen to', image: 'assets/your-friends-listen-to.webp' },
   { title: 'Latin', image: 'assets/latin.webp' },
   { title: 'Live Events', image: 'assets/live-events.webp' },
+  { title: 'Genres and moods', image: 'assets/genres-and-moods.webp' },
   { title: 'Black History is Now', image: 'assets/black-history-is-now.webp' },
-  { title: 'Pride', image: 'assets/pride.webp' },
-  { title: 'Your friends listen to', image: 'assets/your-friends-listen-to.webp' },
 ]
 
 export default function BrowseTopics() {
